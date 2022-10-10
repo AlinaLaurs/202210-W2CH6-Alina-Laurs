@@ -1,0 +1,24 @@
+{
+    "name": "202210-w2ch6-alina-laurs",
+    "version": "1.0.0",
+    "description": "Challenge 6",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlinaLaurs/202210-W2CH6-Alina-Laurs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "prettier": {
+        "singleQuote": true
+    },
+    "bugs": {
+        "url": "https://github.com/AlinaLaurs/202210-W2CH6-Alina-Laurs/issues"
+    },
+    "homepage": "https://github.com/AlinaLaurs/202210-W2CH6-Alina-Laurs#readme"
+}
