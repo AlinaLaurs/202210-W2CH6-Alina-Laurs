@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./style.css"/>
+        <script defer src="./main.js" type="module"></script>
+        <title>Pasapalabra-pro</title>
+    </head>
+    <body>
+        <div id="circle">
+            <div class="letter" id="a">A</div>
+            <div class="letter" id="b">B</div>
+            <div class="letter" id="c">C</div>
+            <div class="letter" id="d">D</div>
+            <div class="letter" id="e">E</div>
+            <div class="letter" id="f">F</div>
+            <div class="letter" id="g">G</div>
+            <div class="letter" id="h">H</div>
+            <div class="letter" id="i">I</div>
+            <div class="letter" id="j">J</div>
+            <div class="letter" id="k">K</div>
+            <div class="letter" id="l">L</div>
+            <div class="letter" id="m">M</div>
+            <div class="letter" id="n">N</div>
+            <div class="letter" id="ñ">Ñ</div>
+            <div class="letter" id="o">O</div>
+            <div class="letter" id="p">P</div>
+            <div class="letter" id="q">Q</div>
+            <div class="letter" id="r">R</div>
+            <div class="letter" id="s">S</div>
+            <div class="letter" id="t">T</div>
+            <div class="letter" id="u">U</div>
+            <div class="letter" id="v">V</div>
+            <div class="letter" id="w">W</div>
+            <div class="letter" id="x">X</div>
+            <div class="letter" id="y">Y</div>
+            <div class="letter" id="z">Z</div>
+        </div>
+        <div id="main-container">
+
+            <div class="container" id="one">
+                <h1>Bienvenido/a a PASAPALABRA</h1>
+                <p>Juego basado en el exitoso concurso de televisión «Pasapalabra» de Telecinco. Consiste en acertar las 27 definiciones en menos de 150 segundos. Se puede decir «pasapalabra» y dejar la pregunta para la siguiente ronda.<br><br>
+                    Se recomienda utilizar la tecla «enter» para enviar la palabra y el «space» para hacer pasapalabra.</p><br>
+                <textarea id="insert-name" placeholder="Introduce tu nombre" autofocus></textarea><br><br><br>
+                <div><input type="button" id="button-one" value="Jugar"></div>
+            </div>
+
+            <div class="container" id="two">
+                <div id="gamer"></div><br><br>
+                <div id="questions"></div><br>
+                <input type="text" id="answers" placeholder="Escribe tu respuesta"></input><br><br><br>
+                <div><input type="button" id="end" value="Finalizar"></div><br>
+                <div id="timer"></div>
+            </div>
+            
+            <div class="container" id="three">
+                <h1>GAME OVER</h1>
+                <p>Puntuación final:<div id="score"></div></p>
+                <table id="scoreRanking">
+                    <tr>
+                        <td id="name">Nombre</td>
+                        <td id="score">Puntos</td>
+                    </tr>
+                </table>
+            </div>
+        
+        </div>
+    </body>
+</html>
