@@ -1,0 +1,51 @@
+body {
+    background: #feac5e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #4bc0c8,
+        #c779d0,
+        #feac5e
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #4bc0c8,
+        #c779d0,
+        #feac5e
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main__link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 1rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+main {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+address {
+    color: white;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -100%);
+    padding-bottom: 2rem;
+}
