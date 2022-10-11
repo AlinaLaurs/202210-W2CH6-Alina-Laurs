@@ -19,25 +19,16 @@ body {
     font-weight: 400;
     color: white;
     border: 2px solid white;
-    border-radius: 100px;
-    padding: 1rem;
+    padding: 2rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 a:hover {
     background-color: #fff;
     color: black;
-}
-
-main {
-    display: block;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 address {
@@ -48,4 +39,14 @@ address {
     top: 100%;
     transform: translate(-50%, -100%);
     padding-bottom: 2rem;
+}
+
+.body__h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+    margin-top: 2rem;
 }
