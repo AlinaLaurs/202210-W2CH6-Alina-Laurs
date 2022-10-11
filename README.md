@@ -1,2 +1,3 @@
 # 202210-W2CH6-Alina-Laurs
-Challenge 6
+
+Week 2 Challenge 6
